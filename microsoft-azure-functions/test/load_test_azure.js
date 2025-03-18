@@ -7,7 +7,6 @@ const warmStartDuration = new Trend('warm_start_duration');
 const coldStarts = new Counter('cold_start_count');
 const successRate = new Rate('success_rate');
 
-// Rest of your code remains unchanged
 const imageData = open(__ENV.IMAGE_PATH, 'b');
 const headers = {
   'Host': 'ingest-image.default.4.231.100.102.xip.io',
