@@ -10,7 +10,7 @@ Commercial Serverless Platform: Microsoft Azure Functions
 
 Open Source Serverless Platform: Knative
 
-Programming Language: Python
+Programming Language: Python 3.9
 
 Application Description
 
