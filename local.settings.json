@@ -1,0 +1,9 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "python",
+    "TRANSFORM_URL": "http://localhost:7071/api/TransformImage",
+    "WATERMARK_URL": "http://localhost:7071/api/WatermarkImage"
+  }
+}
