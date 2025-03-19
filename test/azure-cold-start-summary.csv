@@ -1,0 +1,3 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+MICROSOFOT-AZURE-TEST for Cold Start,1,2315,2315,2315,0.00,0.000%,.43197,3.78,52.40,8965.0
+TOTAL,1,2315,2315,2315,0.00,0.000%,.43197,3.78,52.40,8965.0
