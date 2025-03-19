@@ -1,0 +1,3 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+MICROSOFT-AZURE Warm Start,100,315,254,480,44.78,0.000%,1.67157,14.74,202.76,9032.5
+TOTAL,100,315,254,480,44.78,0.000%,1.67157,14.74,202.76,9032.5

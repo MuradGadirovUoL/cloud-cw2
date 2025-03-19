@@ -1,0 +1,3 @@
+Label,# Samples,Average,Min,Max,Std. Dev.,Error %,Throughput,Received KB/sec,Sent KB/sec,Avg. Bytes
+KNATIVE Warm Start,100,119,103,191,12.04,0.000%,1.68031,14.25,203.84,8682.0
+TOTAL,100,119,103,191,12.04,0.000%,1.68031,14.25,203.84,8682.0

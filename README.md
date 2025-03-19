@@ -26,27 +26,7 @@ This pipeline demonstrates a real-world scenario of using serverless architectur
 
 Repository Structure
 
-cloud-cw2/
-├── knative-functions/
-│   ├── ingest-image/
-│   │   ├── handler.py
-│   │   └── ingest-image.yaml
-│   ├── transform-image/
-│   │   ├── handler.py
-│   │   └── transform-image.yaml
-│   └── watermark-image/
-│       ├── handler.py
-│       └── watermark-image.yaml
-└── microsoft-azure-functions/
-    ├── IngestImage/
-    │   ├── __init__.py
-    │   └── function.json
-    ├── TransformImage/
-    │   ├── __init__.py
-    │   └── function.json
-    └── WatermarkImage/
-        ├── __init__.py
-        └── function.json
+![img.png](structure.png)
 
 Experiments and Evaluation
 
@@ -64,11 +44,10 @@ Code and Scripts
 
 Code implementations for both serverless platforms are provided clearly in separate directories. All scripts required for deploying and testing these functions are included within their respective directories.
 
-Demo
-
-A short video demonstrating the functional pipeline and highlighting key results will accompany this repository as part of coursework submission.
-
-Contributions and Queries
+Testing Methodology:
+JMeter is used to test cold start (single request after idle) and warm start under load (concurrent requests).
+Aggregate and summary reports are generated in CSV format and stored under test/.
+Python scripts in test/ parse these CSVs to visualize and compare performance metrics (e.g., response time percentiles).
 
 This coursework repository is for academic purposes related to COMP5123M. For queries or feedback, please raise issues within this repository.
 
