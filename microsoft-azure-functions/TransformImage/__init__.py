@@ -7,7 +7,6 @@ from PIL import Image, ImageOps
 def main(req: func.HttpRequest) -> func.HttpResponse:
     logging.info("TransformImage function triggered.")
 
-    # Read the incoming image bytes
     image_bytes = req.get_body()
 
     if not image_bytes:
@@ -15,11 +14,9 @@ def main(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse("No image data received.", status_code=400)
 
     try:
-        # Attempt to open the image
         with Image.open(io.BytesIO(image_bytes)) as img:
-            img = ImageOps.grayscale(img)  # Convert to grayscale
+            img = ImageOps.grayscale(img)
 
-            # Save transformed image
             output = io.BytesIO()
             img.save(output, format="JPEG")
             output.seek(0)

@@ -12,6 +12,8 @@ Open Source Serverless Platform: Knative
 
 Programming Language: Python 3.9
 
+Docker images for Knative: https://hub.docker.com/repositories/qhzd4479
+
 Application Description
 
 A multi-step image-processing pipeline was implemented consisting of three sequential serverless functions:
